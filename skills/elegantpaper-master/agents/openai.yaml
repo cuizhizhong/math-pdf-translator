@@ -1,0 +1,7 @@
+interface:
+  display_name: "ElegantPaper Master"
+  short_description: "Generate LaTeX papers with ElegantPaper"
+  default_prompt: "Use $elegantpaper-master to create an ElegantPaper-style LaTeX paper from my content."
+
+policy:
+  allow_implicit_invocation: true

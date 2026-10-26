@@ -1,0 +1,6 @@
+interface:
+  display_name: "数学 PDF 忠实翻译"
+  short_description: "受 nature-reader 约束并自动路由 Elegant 模板的忠实中文翻译"
+  default_prompt: "Use $math-pdf-translator to translate this formula-heavy source into a complete faithful Chinese LaTeX/PDF. Actually load nature-reader and its routed files, use ElegantBook for a new book project or ElegantPaper for a new paper project, preserve an existing LaTeX document class, and complete source mapping plus page-by-page QA."
+policy:
+  allow_implicit_invocation: true

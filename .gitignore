@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.test-work/
+build/
+dist/
+*.aux
+*.bcf
+*.bbl
+*.blg
+*.log
+*.out
+*.run.xml
+*.toc
+*.synctex.gz

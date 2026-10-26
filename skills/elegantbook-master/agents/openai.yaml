@@ -1,0 +1,7 @@
+interface:
+  display_name: "ElegantBook Master"
+  short_description: "Generate LaTeX books with ElegantBook"
+  default_prompt: "Use $elegantbook-master to create an ElegantBook-style LaTeX book from my content."
+
+policy:
+  allow_implicit_invocation: true
