@@ -7,6 +7,8 @@ import re
 import shutil
 import subprocess
 
+from install import configure_output
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -19,6 +21,7 @@ def run(command, directory, log_name):
 
 
 def main():
+    configure_output()
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, default=ROOT / 'build' / 'smoke')
     args = parser.parse_args()

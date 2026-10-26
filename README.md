@@ -6,7 +6,7 @@
 
 ## 安装
 
-需要 Python 3.10+、Git，以及能够加载本地技能的 Codex 环境。下载 [v0.1.0 ZIP](https://github.com/cuizhizhong/math-pdf-translator/archive/refs/tags/v0.1.0.zip) 并解压，或运行：
+需要 Python 3.10+、Git，以及能够加载本地技能的 Codex 环境。下载 [v0.1.1 ZIP](https://github.com/cuizhizhong/math-pdf-translator/archive/refs/tags/v0.1.1.zip) 并解压，或运行：
 
 ```sh
 git clone https://github.com/cuizhizhong/math-pdf-translator.git

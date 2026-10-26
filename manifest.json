@@ -1,20 +1,20 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "files": {
     ".gitattributes": "2ac1d8b3918040c41a751c31f5dade5fd0697fabf2cc9c49e1dff37ac32dfafe",
     ".github/workflows/validate.yml": "b306ec779f81b0608e8c1e94f0b946893d5eb07cbeeba61bd62e1efea5e58521",
     ".gitignore": "17494d16b43d518fcfa18ff455162ccbfa400e4e022050c4ab5df803ec0ab734",
-    "CHANGELOG.md": "11f5b75559dbd3aba89711093cf3bea9c4cd73920097f1d2f641d3c02493c4d2",
+    "CHANGELOG.md": "c2dfbd66af0268793629ffba42c260940cc0ca37ac72e23db38f9197920e7276",
     "LICENSE": "5bd0c69d3d87436c656dfa65279a25dfce8078fab9ee1634821ca66962318915",
-    "README.md": "cd4c3dbe76aef13407fc9397a430844ac5786bcb4a040a6e849454b0165bea31",
+    "README.md": "1325b1a756ec071fcdcd204794a5cccdc0c9b6eb47409d5fb89782be6c7b85f2",
     "THIRD_PARTY_NOTICES.md": "e0ec61102d8055e32940db3f86f9dbe6b4665319b660b26c310ad40c2c4b6e61",
-    "VALIDATION.md": "a76294fffad4b934ce8fdf65a65de5b0fba2f5494e401280f2c192b584b8bf15",
+    "VALIDATION.md": "4b3fb136389989647225d256b52ada7bf9ad678b4d2e4a452a6fb3ae919a7096",
     "provenance.json": "bb36e0e7780725efea6b26c1a872b6673626e2a97b9120bce1ac304f8acaedba",
     "requirements.txt": "030b7c33c9c4943d97e2fff0d783082c4f5d92a0dc1bcf88747d8e71bdb76764",
-    "scripts/check_environment.py": "e8e355cdc0be613966784ee12e7f62dc5070cb2b2e9bee1f59529753de4ea0fa",
-    "scripts/install.py": "2b2b794ba04b87d1d8c3f3d514ca5bf88f46469426ad036725a8758383d7abbd",
-    "scripts/smoke_templates.py": "4a5511e223e4951666eb518a9c98139a1d0336d292f009bf308a87cba65ee3e5",
-    "scripts/validate_package.py": "853256745e3c6d289514e39d45658717511d9d79792e30cdfa71de8559e9ba4f",
+    "scripts/check_environment.py": "3ee2b3a3dec5b99f31fffe1d81f300ef33379c8369ee542d3dd583f3b85a30be",
+    "scripts/install.py": "019ad0c57dd3cd3c9487f723e420ccacbc2d0e6efb4598172a58145285e747f2",
+    "scripts/smoke_templates.py": "7f464385f39a6d7fcc535c889257b57bdff7616485162fc56cc4b141ded0f080",
+    "scripts/validate_package.py": "f4401393e63aae99ae0cccb7998598edb1d518c2d311d430e7d08645cb069715",
     "skills/elegantbook-master/SKILL.md": "aa828bf17bf8ba5f82976a18a309c27dc1fad70c8850e582aff24c35fefa740b",
     "skills/elegantbook-master/agents/openai.yaml": "db77c84cd76bcc7b32401a2b64f5ce41500cd29b1c73b870e68ccbd7524d114c",
     "skills/elegantbook-master/assets/ElegantBook-master/License": "5f05fcf6ef25a6c31bccd2df7c0c46b23107bbeb2ce5cdba74efb5cc357f4dbb",
@@ -86,6 +86,7 @@
     "skills/nature-shared/scripts/check_consistency.py": "f20b6c24b5203cdcbfd03c83b2c8b055c49581be06a77e619afb7c1352e62bbf",
     "skills/nature-shared/tests/test_check_consistency.py": "0e4580287e1da1e2c0125f376e3ec5ec94f3d71ff1699868de5d3c81b96ea4a1",
     "skills/pdf/SKILL.md": "51c5874c2eeeb3f0cb0a102a3eef23e839c61dda0bc6bd8b33a5bef4db7268c9",
+    "tests/test_cli_encoding.py": "eabb9e0bd4366ba25b81922807c87c549708fcdd1eada21cd9d1980ecc937bd9",
     "tests/test_install.py": "bcb7c5b0f6f82d5407b7abd38d974027276da8d9744daa07b294b3b28c647c65"
   }
 }

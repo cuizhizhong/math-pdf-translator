@@ -7,7 +7,7 @@ import re
 import sys
 
 import yaml
-from install import ROOT, SKILLS, validate_bundle
+from install import ROOT, SKILLS, configure_output, validate_bundle
 
 
 def git_blob(data):
@@ -15,6 +15,7 @@ def git_blob(data):
 
 
 def main():
+    configure_output()
     validate_bundle(ROOT)
     manifest = json.loads((ROOT / 'manifest.json').read_text(encoding='utf-8'))
     for rel, sha in manifest['files'].items():

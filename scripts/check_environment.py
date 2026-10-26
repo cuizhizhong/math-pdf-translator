@@ -7,7 +7,7 @@ from pathlib import Path
 import shutil
 import sys
 
-from install import SKILLS
+from install import SKILLS, configure_output
 
 
 def inspect(skills_root):
@@ -20,6 +20,7 @@ def inspect(skills_root):
 
 
 def main():
+    configure_output()
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--skills-root', type=Path, default=Path.home() / '.agents' / 'skills')
     args = parser.parse_args()

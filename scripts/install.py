@@ -12,6 +12,13 @@ SKILLS = ('math-pdf-translator', 'nature-reader', 'nature-shared',
           'elegantpaper-master', 'elegantbook-master', 'pdf')
 
 
+def configure_output():
+    """Windows 英文区域与重定向日志也统一输出 UTF-8。"""
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, 'reconfigure'):
+            stream.reconfigure(encoding='utf-8')
+
+
 def validate_bundle(root):
     root = Path(root).resolve()
     records = json.loads((root / 'manifest.json').read_text(encoding='utf-8'))['files']
@@ -52,6 +59,7 @@ def install(root, destination, skip_existing=False, dry_run=False):
 
 
 def main():
+    configure_output()
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--dest', type=Path, default=Path.home() / '.agents' / 'skills', help='技能根目录')
     parser.add_argument('--skip-existing', action='store_true', help='保留已有技能；用户自行确认版本兼容')
